@@ -1,7 +1,7 @@
 task: segment
 mode: train
 model: ../../pt_models/yolov8n-seg.pt
-data: ..\..\data\weapon_segmentation.v3i.yolov8\data.yaml
+data: ..\..\data\data.yaml
 epochs: 1
 patience: 50
 batch: 16
